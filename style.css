@@ -1,0 +1,45 @@
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+
+}
+div#root{
+	padding: 20px 0 0 20px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+div#form{
+	padding: 20px;
+	border: solid 1px;
+	
+}
+div#header{
+
+}
+
+div#botao{
+	background-color: lightblue;
+	padding: 2px;
+	border-radius: 3px;
+	width: 80px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	color: black;
+	outline: none;
+	cursor: pointer;
+}
+
+
+.form-contato{
+	display: block;
+}
+input.form-contato{
+	margin-bottom: 20px;
+}
