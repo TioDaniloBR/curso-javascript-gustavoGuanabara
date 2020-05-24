@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Eventos DOM</title>
+	<style>
+		div#area{
+			background: rgb(42,139,42);
+			color: white;
+			width: 200px;
+			height: 200px;
+			font-family: sans-serif;	
+			line-height: 200px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div id="area">
+	Interaja...
+</div>
+<script>
+	//eventos mouse: mouseenter, mouseout, click, mouseup, mousedown, mousemove
+	var div = document.querySelector('#area')
+	div.addEventListener('mouseenter', () => {
+		div.innerHTML = 'Mouse entrou'
+	})
+	div.addEventListener('mouseout', () => {
+		div.innerHTML = 'Interaja...'
+		div.style.background = 'green'
+	})
+	div.addEventListener('click', () => {
+		div.innerHTML = 'Clicou'
+		div.style.background = 'red'
+	})
+</script>
+</body>
+</html>

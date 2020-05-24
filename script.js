@@ -23,5 +23,5 @@ botao.addEventListener('click',()=>{
 	
 })
 
-var teste = prompt('Digite seu nome:');
+var teste = prompt('Digite seu nome:'); //
 console.log(teste)

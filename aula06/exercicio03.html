@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Aula 06</title>
+	<style>
+		body{
+			background-color: rgb(105,105,173);
+			color: white;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Olá Mundo</h1>
+	<p>Já me livrei da maldição</p>
+	<p id="paragrafo"></p>
+<script>
+	var n1 = prompt('Digite um número ');
+	var n2 = prompt('Digite outro número ');
+	var s  = Number(n1)+Number(n2)
+	alert('A soma dos numeros é '+s)
+	document.querySelector('#paragrafo').innerHTML = `A soma dos números é ${s}`// crase para usar template string
+</script>
+</body>
+</html>

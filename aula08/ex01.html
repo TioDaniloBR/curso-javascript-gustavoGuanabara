@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Aula 08</title>
+</head>
+<body>
+<div id="root">
+	<h1>Iniciando estudos com DOM</h1>
+	<p>Aqui vai o resultado</p>
+	<p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+	<div id="msg">clique em mim</div>
+</div>
+<script>
+	var corpo = document.body
+	var p1 = document.getElementsByTagName('p')
+
+	corpo.style.background = 'lightblue';
+	document.write('<br/>'+p1[1].innerText)
+	var d = document.querySelector('#msg')
+
+	//innerText ou innerHTML  funciona como uma variavel, se voce atribuir um valor novo apaga o que tinha antes
+	d.innerHTML += " <p>Nova mensagem<p>"
+	d.style.background = 'lightgreen'
+	
+</script>
+</body>
+</html>
