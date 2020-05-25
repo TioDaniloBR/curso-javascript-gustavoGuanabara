@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Verificador de idade</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+</head>
+<body>
+	<div id="root">
+		
+		<header>
+			<div id="titulo">
+				<h1>Verificador de idade</h1>
+			</div>
+		</header>
+		
+		<section>
+			<div id="conteudo">
+				<div>
+					<p>Ano de nascimento: 
+						<input type="number" name="txtano" id="txtano" min="1900">
+					</p>
+					<p>Sexo:
+						<input type="radio" name="radsex" id="mas" checked>
+						<label for="mas">Masculino</label>
+						<input type="radio" name="radsex" id="fem">
+						<label for="fem">Feminino</label>
+					</p>
+					<p>
+						<input type="button" value="Verificar" onclick="verificar()">
+					</p>
+				</div>
+				<div id="res">
+					Preencha os dados acima para ver o resultado.
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div id="rodape">
+				<p>&copy;dnl.CODE - 2020</p>
+			</div>
+		</footer>
+		
+	</div>
+<script src="js/script2.js"></script>
+</body>
+</html>

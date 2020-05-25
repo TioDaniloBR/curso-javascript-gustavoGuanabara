@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Condições</title>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<div id="root">
+		
+	</div>
+	<script>
+		var idade = 15
+		console.log(`Idade: ${idade}`)
+
+		if(idade < 16){
+			console.log('não vota')
+		}else if (idade < 18 || idade >= 60) {
+			console.log('voto facultativo')
+		}else{
+			console.log('voto obrigatório')
+		}
+
+
+		if(idade < 16){
+			console.log('menor de idade. não vota')
+		}else if(idade < 18){
+				console.log('menor de idade. voto facultativo')
+			}else if(idade < 60){
+				console.log('Maior de idade. voto obrigatório')
+			}else{
+				console.log('maior de idade. voto facultativo')
+			}
+			
+		
+	</script>
+</body>
+</html>
