@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Módulo F</title>
+</head>
+<body>
+<script>
+	
+	let num = [5,8,2,9,3,1,6,15,24,17,13,42]
+	
+	num.push(7)
+	/*
+	console.log(num)
+	console.log(`Nosso vetor é o ${num} e tem ${num.length} posições`)
+	console.log(`O vetor ordenado fica: ${num.sort()}`)
+	console.log(num)
+	console.log('usando o for')
+	for(let i = 0; i < num.length; i++){console.log(num[i])}
+		*/
+	num.sort()
+	for(let i in num) console.log(num[i])
+
+	console.log(`a posição do valor 5 é ${num.indexOf(5)}`)
+</script>
+</body>
+</html>
